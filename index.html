@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link
+  href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,700;1,800&display=swap"
+  rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+  <div class="wrapper">
+   <form class="input-age">
+    <div class="form-container">
+     <label class="day-name input-name">DAY</label>
+     <input type="number" class="fill-in day" placeholder="DD">
+     <span class="error error1 "></span>
+    </div>
+    <div class="form-container">
+     <label class="month-name input-name">MONTH</label>
+     <input type="number" class="fill-in month" placeholder="MM" maxlength="2">
+     <span class=" error error2"></span>
+    </div>
+    <div class="form-container">
+     <label class="year-name input-name">YEAR</label>
+     <input type="number" class="fill-in year" placeholder="YYYY" maxlength="4">
+     <span class="error error3"></span>
+    </div>
+   </form>
+   <button type="submit"><img src="./icon-arrow.svg" alt="" class="icon-arrow"></button>
+
+   <div class="outcome">
+    <div class="result-outcome">
+     <p class="no-results"><span class=" yearvalue">--</span> years</p>
+    </div>
+    <div class="result-outcome">
+     <p class="no-results"><span class=" monthvalue">--</span> months</p>
+    </div>
+    <div class="result-outcome">
+     <p class="no-results"><span class=" daysvalue">--</span> days</p>
+    </div>
+   </div>
+   
+  </div>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
