@@ -30,7 +30,7 @@ body {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
  column-gap: 1em;
- padding-bottom: 2em;
+ padding-bottom: 4em;
  border-bottom: 1px solid rgb(240, 240, 240);
 }
 .fill-in {
@@ -55,7 +55,7 @@ input:placeholder-shown {
  background: purple;
  border-radius: 50%;
  position: absolute;
- top: 115px;
+ top: 150px;
  left: 150px;
  padding: 10px;
 }
@@ -82,11 +82,11 @@ input:placeholder-shown {
 
 @media (min-width: 500px) {
  .input-age {
-  padding-bottom: 5em;
+  padding-bottom: 7em;
  }
  .icon-arrow {
   width: 60px;
-  top: 160px;
+  top: 190px;
   left: 200px;
  }
   .result-outcome p {
@@ -109,7 +109,7 @@ input:placeholder-shown {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
  column-gap: 1em;
- padding-bottom: 3em;
+ padding-bottom: 7em;
  border-bottom: 1px solid rgb(240, 240, 240);
 }
 .fill-in {
@@ -136,7 +136,7 @@ input:placeholder-shown {
  background: purple;
  border-radius: 50%;
  position: absolute;
- top: 135px;
+ top: 200px;
  left: 250px;
  padding: 10px;
 }
@@ -161,11 +161,11 @@ input:placeholder-shown {
   font-size: 1rem;
  }
  .input-age {
-  padding-bottom: 5em;
+  padding-bottom: 10em;
  }
  .icon-arrow {
   width: 80px;
-  top: 150px;
+  top: 230px;
   left: 350px;
  }
 }
