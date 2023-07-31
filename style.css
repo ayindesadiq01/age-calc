@@ -80,6 +80,13 @@ input:placeholder-shown {
  color: red;
 }
 
+.yearvalue, .monthvalue, .daysvalue {
+  color: rgb(78, 10, 141)
+}
+.result-outcome {
+  color: black;
+}
+
 @media (min-width: 500px) {
  .input-age {
   padding-bottom: 7em;
@@ -168,4 +175,12 @@ input:placeholder-shown {
   top: 230px;
   left: 350px;
  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 50%;
+  }
+  .icon-arrow {
+    left: 300px;
+  }
 }
